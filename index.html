@@ -5,11 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css"> 
     <title>Welcome to my page</title>
+    <style>
+    nav {
+      background: #f2f2f2;
+      padding: 10px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    nav a:hover {
+      color: #0077cc;
+    }
+    #content {
+      margin: 20px;
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+    }
+  </style>
 </head>
 <body>
     <header>
        <nav>
-        <a href="assignment1.md">assignment1</a>
+        <button onclick="loadmarkdown('assignment1.md','content')">assignment1</button>
+        <button onclick="loadmarkdown('assignment2.md','content')">assignment2</button>
+        <button onclick="loadmarkdown('assignment3.md','content')">assignment3</button>
        </nav>
     </header>
     
@@ -17,19 +40,30 @@
         <div>
             <h2>Digital Technologies in the Humanitites</h1>
         </div>
-       <div>
-        <p>Welcome to my Homepage for digtial technologies in the humanities course.</p>
-        <br>
-        <p>This webpage contains three assignments which discusses the digital technology useage in the humanities field and the process of the creation of this website.</p>
-       </div>
+        <div>
+            <p>Welcome to my Homepage for digtial technologies in the humanities course.</p>
+            <br>
+            <p>This webpage contains three assignments which discusses the digital technology useage in the humanities field and the process of the creation of this website.</p>
+        </div>
        
-       <div>
-        <p id="about me">Down below is a brief profile about me</p>
-        <p id="introduction">Hej, I am Azusa Yamazaki and I am currently in my Masters in Intercultural Studies at <a href="https://masters.au.dk/">Aarhus University</a>. Take a look at my assignments from the headers above to explore the ideas and theories around digital technologies and the humanities.</p>
-       </div>
+        <div>
+            <p id="about me">Down below is a brief profile about me</p>
+            <p id="introduction">Hej, I am Azusa Yamazaki and I am currently in my Masters in Intercultural Studies at <a href="https://masters.au.dk/">Aarhus University</a>. Take a look at my assignments from the headers above to explore the ideas and theories around digital technologies and the humanities.</p>
+        </div>
+
+        <div id="content"></div>
     </main>
+
     <footer>
         <p>&copy; 2025 My First Webpage</p>
     </footer>
+
+    <script>
+    async function loadMarkdown(filename, componentId) {
+        const response = await fetch('md/assignment1.md');
+        const text = await response.text();
+        document.getElementById(componentId).innerHTML = marked.parse(text);
+    }
+    </script>
 </body>
 </html>
