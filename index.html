@@ -51,6 +51,23 @@ async function loadMarkdown(filename, componentId) {
     // Markdown を表示
     document.getElementById(componentId).style.display = 'block';
     document.getElementById(componentId).innerHTML = marked.parse(text);
+    
+    // 戻るボタンを作成
+    const backButton = '<button onclick="backToMain()">戻る</button>';
+    
+    container.innerHTML = backButton + marked.parse(text);
+}
+
+    // 元のページに戻る関数
+    function backToMain() {
+    // main と footer を表示
+    document.querySelector('main').style.display = 'block';
+    document.querySelector('footer').style.display = 'block';
+
+    // Markdown コンテナを非表示
+    const container = document.getElementById('content');
+    container.style.display = 'none';
+    container.innerHTML = ''; // 中身をクリア
 }
     </script>
 </body>
