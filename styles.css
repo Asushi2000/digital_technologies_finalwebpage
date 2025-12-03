@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
-h2 {
+main h2 {
   color: rgb(255, 255, 255); 
   font-size: 100px; 
   font-family: "Orbitron", sans-serif;
@@ -13,7 +13,7 @@ main {
 footer {
     font-size: 15px;
 }
-a {
+main a {
     color: aliceblue;
 }
 
