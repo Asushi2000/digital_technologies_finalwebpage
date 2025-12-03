@@ -16,3 +16,16 @@ footer {
 main a {
     color: aliceblue;
 }
+
+#content p {
+    font-size: 18px; /* Markdown 内の p のみ */
+}
+
+#content h1, #content h2, #content h3 {
+    color: #333;
+}
+
+#content a {
+    color: #0077cc;
+    text-decoration: none;
+}
