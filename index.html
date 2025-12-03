@@ -17,7 +17,7 @@
     </nav>
   </header>
 
-  <div id="content"></div>
+<div id="content"></div>
     
     <main>
         <div>
@@ -49,8 +49,9 @@ async function loadMarkdown(filename, componentId) {
     document.querySelector('footer').style.display = 'none';
 
     // Markdown を表示
+    document.getElementById(componentId).style.display = 'block';
     document.getElementById(componentId).innerHTML = marked.parse(text);
 }
-</script>
+    </script>
 </body>
 </html>
