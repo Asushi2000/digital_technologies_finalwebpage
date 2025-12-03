@@ -1,6 +1,2 @@
 .DS_Store
 .DS_Store
-find . -name '.DS_Store' -type f -delete
-git rm -r --cached .
-git add .
-git commit -m "Remove .DS_Store files and update .gitignore"
