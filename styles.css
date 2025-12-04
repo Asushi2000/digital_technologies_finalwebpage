@@ -17,6 +17,24 @@ main a {
     color: aliceblue;
 }
 
+button {
+  background-color: #2200ff;
+  border: solid 2px #ffffff;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 1em;
+  box-shadow: 0 5px 0 #ffffff;
+  display: inline-block;
+  transition: .3s;
+}
+button:hover {
+  color: #ffffff;
+  transform: translateY(5px);
+  box-shadow: 0 0 0 #fcfcff;
+}
+
 #content p {
     font-size: 18px; /* Markdown 内の p のみ */
 }
