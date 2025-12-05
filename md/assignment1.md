@@ -1,8 +1,6 @@
-# Welcome to My Page
-<p style="color: green; font-family: Times New Roman; font-size: 16px" >Welcome to my page for the Digital Technologies in the Humanities . 
-Here you will get to know about my field of studies and how it relates to digital technologies. 
+# Welcome to My Assignment 1 Page
+<p style="color: green; font-family: Times New Roman; font-size: 16px" >Welcome to my assignment 1 page for the Digital Technologies in the Humanities . This page is dedicated to the assignment for Digital Technologies in the Humanities to illustrate significant connections between seemingly unaligned fields, which are intercultural studies and digital technologies.  
 Scroll down the page to see more information and hopefully it will be interesting content for you!</p>
-
 
 
 ## Table of Content
@@ -25,15 +23,12 @@ Scroll down the page to see more information and hopefully it will be interestin
 | **Studies** | Master's in Intercultural Studies, English |
 | **Degree** | Bachelor's in International Relations and Media |
 
-
 I am currently enrolled in Intercultural Studies, a masters programme by Aarhus University. The current courses I am enrolled in are…
 1. Digital Technologies in the Humanities
 2. Sustainability as a Way of Life
 3. Intercultural Projects in a Transnational World
 
-This website will be the assignment for Digital Technologies in the Humanities and I would like to exhibit some significant connections between seemingly unaligned fields, humanities and digital technologies. 
-
-Aside from my studies, I am involved in a sustainable startup program run by Deep Green Innovators that are provided by Aarhus, Aalborg, Copenhagen, and Copenhagen Business Universities. 
+Aside from my studies, I am involved in a sustainable startup program run by Deep Green Innovators that are provided by Aarhus, Aalborg, Copenhagen, and Copenhagen Business Universities which gave me insights on my master thesis development. My master thesis is aimed to cover the alignment between sustainability and business communication in a sustainable startup journey. Through this experience in exploring sustainable communication and business alignment, it has come to my  realization that digital technology is deeply connected with intercultural studies in a sustainability manner as well.  
 
 If you are interested, please click the link below to acquire further information!
 [DeepGreenInnovators](https://www.deepgreeninnovation.com/)
@@ -41,7 +36,7 @@ If you are interested, please click the link below to acquire further informatio
 ![Sustainability](https://www.populationmedia.org/wp-content/uploads/2021/02/Economic-Sustainability-Examples.jpeg "Sustainability")
 
 ### Introduction
-Humanities and digital technologies seem to be placed in an opposing field of studies that makes humanities students utilize technologies to their field of interest. However, in this digitalized world, it is crucial for not only the obvious scientists and engineers but also for humanities researchers to utilize and be accustomed to digital technologies. This website will focus on how digital technologies are used and can be used in the field of my interest which is Interculturality in Sustainability including my own experience for my other course in Aarhus University. It will highlight the enhancement of practicality, efficiency and credibility for humanity studies by installing digital technologies especially in the context of conducting corporate analysis or quantitative analysis. Consequently, the paper will propose how I intend to use digital technologies in my master thesis as well as encouraging humanities studies to include digital technologies to enhance efficiency and credibility. 
+Humanities and digital technologies seem to be placed in an opposing field of studies that makes humanities students utilize technologies to their field of interest. However, in this digitalized world, it is crucial for not only the obvious scientists and engineers but also for humanities researchers to utilize and be accustomed to digital technologies. This assignment will focus on how digital technologies are used and can be used in the field of my interest which is Interculturality in Sustainability including my own experience for my other courses in Aarhus University. It will highlight the enhancement of practicality, efficiency and credibility for humanity studies by installing digital technologies especially in the context of conducting corporate analysis or quantitative analysis. Consequently, the paper will propose how I intend to use digital technologies in my master thesis as well as encouraging humanities studies to include digital technologies to enhance efficiency and credibility. 
 
 ### Current digital technology usage in Sustainability Communication
 I have been on a few sustainability projects and research that explicitly delivers the utilization and significance of digital technology in sustainability communication. One of the scenes where digital technologies came into place is when humanities, sustainable communication has to be integrated with company data and projects. In terms of collaborating humanity research and background with companies, digital technologies are crucial to comprehend the situation and analyze the issue (Lauring et al, 2021). I have experienced this when I entered as an intern in the co-project led by [Mitsubishi](https://www.mitsubishicorp.com/jp/ja/index.html), a Japanese autonomous multinational company and [Vestas](https://www.vestas.com/en/about/this-is-vestas), a Danish sustainable energy company to implement Japan’s first offshore wind farm project in one of the depopulated area called Akita and revitalize there as a sustainable town. The task as an intern was to reflect and revise the communication strategies between Japanese Mitsubishi staff, Danish Vestas staff, and the Japanese local community members. To understand what “sustainability” meant to each of the group members, we reflected and compared both company’s sustainability reports, their previous sustainability projects and interviewed some local members about “sustainability”. Ending up with quantitative data, we took a deductive research approach (Welch & Piekkari, 2017) which required coding (Zoelner, 2025) some of the key words that appeared in the reports and interviews to formulate a pattern (Zoelner, 2025) and conclude the research. We used Chat GPT, text mining tool, and Excel to effectively pick up words that were frequently used, as well as recording the results. This is where I encountered digital technology usage in social scientific, humanities related research and realized how digital technologies provide efficient, and credible information.
