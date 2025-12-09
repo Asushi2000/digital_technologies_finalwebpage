@@ -33,6 +33,19 @@
             <p id="about me">Down below is a brief profile about me</p>
             <p id="introduction">Hej, I am Azusa Yamazaki and I am currently in my Masters in Intercultural Studies at <a href="https://masters.au.dk/">Aarhus University</a>. Take a look at my assignments from the headers above to explore the ideas and theories around digital technologies and the humanities.</p>
         </div>
+        <div id="japan">
+            <p>
+                <b>Where am I from?</b>
+                <br>
+                I am from Japan, currently studying abroad in Denmark
+                <br>
+                <button
+                onclick="loadMarkdown('example2.md', 'japan'); getAdvice('japan')"
+                >
+                Open for daily quote
+                </button>
+            </p>
+        </div>
     </main>
 
     <footer>
@@ -68,6 +81,11 @@ async function loadMarkdown(filename, componentId) {
     const container = document.getElementById('content');
     container.style.display = 'none';
     container.innerHTML = ''; // 中身をクリア
+}
+async function getAdvice(componentId){
+  const response = await fetch('https://api.adviceslip.com/advice');
+  const data = await response.json();
+  document.getElementById(componentId).innerHTML = data.slip.advice;
 }
     </script>
 </body>
