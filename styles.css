@@ -36,6 +36,40 @@ main h2 {
   background-color: pink;
   padding: 45px;
 }
+
+#subtitle{
+  color: #cd2b2b;
+  font-size: 45px;
+  font-family: "Alfa Slab One", serif;
+  text-align: center;
+  padding: 40px 15px 10px;
+  img {width: 15%}
+}
+
+#profile{
+  color: rgb(255, 255, 255); 
+  font-size: 25px; 
+  font-family: "Lexend", sans-serif;
+  margin-top: 30px;
+  background-color: rgb(73, 167, 255);
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mycountry{
+  color: rgb(255, 255, 255); 
+  font-size: 25px; 
+  font-family: "Lexend", sans-serif;
+  margin-top: 30px;
+  background-color: rgb(255, 218, 54);
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 main {
   color: #fcfcff;
 }
